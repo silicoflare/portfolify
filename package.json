@@ -1,0 +1,22 @@
+{
+  "name": "@silicoflare/portfolify",
+  "version": "1.0.0",
+  "main": "dist/index.mjs",
+  "scripts": {
+    "build": "vite build && tsc"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.61",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "react": "^18.2.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4",
+    "vite-plugin-lib-inject-css": "^2.0.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
