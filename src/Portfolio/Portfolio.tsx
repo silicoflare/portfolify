@@ -1,13 +1,13 @@
-import React, { ReactNode } from "react";
+import React, { ReactNode, FC } from "react";
 
 export interface PortfolioProps {
-    children: ReactNode
+    children: ReactNode;
 }
 
-export function Portfolio({ children } : PortfolioProps) {
+export const Portfolio: FC<PortfolioProps> = ({ children }) => {
     return (
         <div className="flex flex-col items-center w-screen h-screen p-5 font-['Poppins']">
             { children }
         </div>
     )
-}
+};

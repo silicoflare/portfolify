@@ -1,8 +1,14 @@
 {
   "name": "@silicoflare/portfolify",
   "version": "1.0.0",
-  "main": "dist/index.mjs",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
     "build": "vite build && tsc"
   },
   "license": "MIT",
@@ -18,5 +24,8 @@
   },
   "peerDependencies": {
     "react": "^18.2.0"
+  },
+  "publishConfig": {
+    "@silicoflare:registry": "https://npm.pkg.github.com"
   }
 }
