@@ -26,6 +26,6 @@
     "react": "^18.2.0"
   },
   "publishConfig": {
-    "@silicoflare:registry": "https://npm.pkg.github.com"
+    "@silicoflare:registry": "https://registry.npmjs.org/"
   }
 }
