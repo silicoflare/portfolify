@@ -6,7 +6,7 @@ export interface MainHeadProps  {
 
 export const MainHead: FC<MainHeadProps> = ({ children }) => {
     return (
-        <h1 className="mt-10 text-6xl font-semibold font-['Roboto_Slab'] text-center">
+        <h1 className="mt-5 md:mt-10 text-4xl md:text-6xl font-semibold font-['Roboto_Slab'] text-center">
             { children }
         </h1>
     )
